@@ -11,4 +11,4 @@ def sum_arr(numbers):
         s.add(i)
     print(sum(s))
 
-sum_arr([5,1,2,3,4,5])
+sum_arr([5, 1, 2, 3, 4, 5])
