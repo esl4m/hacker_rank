@@ -4,6 +4,7 @@
 #  by: esl4m diaa
 #      08 Nov 2017
 
+
 def print_list(head):
     if head:
         print(head.data)
