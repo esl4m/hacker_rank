@@ -15,7 +15,7 @@ for _ in range(n2):
     # find how many times s was in arr
     print(arr.count(word))
 
-# other try
+# another solution #
 #  s = [input() for _ in range(int(input()))]
 # for _ in range(int(input())):
 #     print(s.count(input()))
