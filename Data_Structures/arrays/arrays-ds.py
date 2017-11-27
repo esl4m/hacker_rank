@@ -13,7 +13,7 @@ if len(arr) == n:
 else:
     print('N should equal the number of integers in array')
 
-# other try
+# another solution #
 # c = ""
 # for x in arr[::-1]:
 #     print(c)
