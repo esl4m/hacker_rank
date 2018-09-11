@@ -33,5 +33,5 @@ def sort_dic(d):
 # Write a function that takes user location (x,y) and store locations and returns the closest store locations #
 user_loc = [2, 2]
 store_loc = [[5, 6], [5, 4], [3, 2], [1,1]]
-k_num_location = 2
-print(close_stores(user_loc, store_loc, k_num_location))
+k_num_locations = 2
+print(close_stores(user_loc, store_loc, k_num_locations))
