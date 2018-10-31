@@ -11,5 +11,5 @@ def string_recursion(s):
 
     return res
 
-main_str = "Dogs bites men"
+main_str = "Dogs bites men who's are bad"
 print(string_recursion(main_str))
