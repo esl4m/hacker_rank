@@ -7,6 +7,7 @@
 
 class MySum:
     def __init__(self):
+        #
         self.start = 0
 
     def sum_them(self):
@@ -14,8 +15,8 @@ class MySum:
         numbers = [1, 2, 3, 4, 5, 8]
 
         for x in numbers:
-            res = self.start + x
-            self.start = res
+            res = self.start + x  # result will be self + the current number (x) .. at first self.start is zero ;)
+            self.start = res  # changing the start value to be the current result.
 
         return res
 
