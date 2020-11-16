@@ -7,7 +7,7 @@
 class Solution:
     
     def lengthOfLongestSubstring(self, s):
-        max_l = 0
+        output = 0
         left = 0
         seen = {}
         
