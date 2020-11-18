@@ -35,3 +35,25 @@ print (solution(s1))
 print (solution(s2))
 print (solution(s3))
 print (solution(s4))
+
+
+
+"""
+const r = /[a-z]/gi
+
+cleanStr = str.replace(r, "")
+list = cleanStr.match(/[0-9]\?+[0-9]/gi);
+result = false;
+for (i=0; i < list.length; i++) {
+    if ( (Number(list[i][0]) + Number(list[i][(list[i].length)-1])) == 10) {
+        if (list[i].length != 5) {
+            result = false
+            break
+        } else {
+            result = true
+        }
+    }
+}
+console.log(result)
+# https://jsfiddle.net/d3k1p9xf/1
+"""
