@@ -1,3 +1,4 @@
+#!/bin/python3
 
 def bubble_sort(dataset):
     # TODO: start with the array
