@@ -1,18 +1,28 @@
+#!/bin/python3
 # Determine the number of pairs of array elements that have a difference equal to a target value.
+
 import math
 import os
 import random
 import re
 import sys
 
+# Complete the 'pairs' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER k
+#  2. INTEGER_ARRAY arr
 
 def pairs(k, arr):
-    # arr = [1, 5, 3, 4, 2]
-    res = 0
-    for value in arr:
-        if (value + k) in arr:
-            res += 1
-    return res
+    # res = 0
+    # for value in arr:
+    #     if (value + k) in arr:
+    #         res += 1
+    # return res
+    set1 = set(arr)  # set : without duplicates
+    set2 = [value + k for value in arr]
+    return len(set1.intersection(set2))
 
 arr_input = [1, 5, 3, 4, 2]
 print(pairs(2, arr_input))
