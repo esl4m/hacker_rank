@@ -7,6 +7,11 @@ def rot_left(a, d):
             a.pop(0)
     return a
 
+    # Another solution
+    # a_list = list(a)
+    # b = a_list[d:] + a_list[:d]
+    # return b
+
 if __name__ == '__main__':
     # 5 4
     # 1 2 3 4 5
